@@ -96,7 +96,7 @@
                                 </constraints>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Some very, very beautiful text will go here, very very good." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="D1Z-ju-lJb">
-                                <rect key="frame" x="74.5" y="83.5" width="226" height="60"/>
+                                <rect key="frame" x="74.5" y="88.5" width="226" height="60"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                     <bool key="isElement" value="YES"/>
@@ -114,7 +114,7 @@
                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ek4-0k-FwV" firstAttribute="centerX" secondItem="wL5-AE-pmc" secondAttribute="centerX" constant="6" id="59m-jA-Yxh"/>
-                            <constraint firstItem="D1Z-ju-lJb" firstAttribute="centerY" secondItem="wL5-AE-pmc" secondAttribute="centerY" constant="-220" id="5wI-Y0-Em2"/>
+                            <constraint firstItem="D1Z-ju-lJb" firstAttribute="centerY" secondItem="wL5-AE-pmc" secondAttribute="centerY" constant="-215" id="5wI-Y0-Em2"/>
                             <constraint firstItem="cCW-Iu-aZk" firstAttribute="centerY" secondItem="wL5-AE-pmc" secondAttribute="centerY" constant="-270" id="Eec-MK-bT4"/>
                             <constraint firstItem="ek4-0k-FwV" firstAttribute="centerY" secondItem="wL5-AE-pmc" secondAttribute="centerY" constant="-100" id="FG9-e4-aLb"/>
                             <constraint firstItem="cCW-Iu-aZk" firstAttribute="centerX" secondItem="wL5-AE-pmc" secondAttribute="centerX" id="Vc3-EG-18x"/>
@@ -129,6 +129,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="29j-oS-YYq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="864.79999999999995" y="133.5832083958021"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="UqK-Fv-Rmw">
+            <objects>
+                <viewController title="Register" id="Pwn-fa-eCg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cHk-8k-Ewv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Some very, very beautiful text will go here, very very good." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="krp-95-psk">
+                                <rect key="frame" x="74" y="88.5" width="226" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Create an account" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5RN-V9-034">
+                                <rect key="frame" x="108" y="38.5" width="159" height="50"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Dud-vq-3Ji"/>
+                                    <constraint firstAttribute="width" constant="159" id="enV-kx-AWG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5RN-V9-034" firstAttribute="centerY" secondItem="cHk-8k-Ewv" secondAttribute="centerY" constant="-270" id="Ifz-Yt-BFb"/>
+                            <constraint firstItem="5RN-V9-034" firstAttribute="centerX" secondItem="cHk-8k-Ewv" secondAttribute="centerX" id="lEn-Qi-Y8u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="15b-OK-vFC"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="J86-TR-Y4P">
+                        <barButtonItem key="backBarButtonItem" title="Go back" id="rM7-Qf-OUu"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bwL-NL-Px7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1632.8" y="133.5832083958021"/>
         </scene>
     </scenes>
     <resources>

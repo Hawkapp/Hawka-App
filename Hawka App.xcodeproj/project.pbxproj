@@ -14,6 +14,23 @@
 		2071423120A45B9100B21AFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2071422F20A45B9100B21AFC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2071423D20A4995900B21AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2071423820A4995900B21AFC /* SwiftVideoBackground.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8C3106C203C758D0075EA9E;
+			remoteInfo = SwiftVideoBackground;
+		};
+		2071423F20A4995900B21AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2071423820A4995900B21AFC /* SwiftVideoBackground.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C8C31080203C758D0075EA9E;
+			remoteInfo = SwiftVideoBackgroundTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2071422320A45B8E00B21AFC /* Hawka App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hawka App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2071422620A45B8E00B21AFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +39,7 @@
 		2071422D20A45B9100B21AFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2071423020A45B9100B21AFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2071423220A45B9100B21AFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2071423820A4995900B21AFC /* SwiftVideoBackground.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftVideoBackground.xcodeproj; path = "../../../../Downloads/SwiftVideoBackground-master/SwiftVideoBackground.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +78,18 @@
 				2071422D20A45B9100B21AFC /* Assets.xcassets */,
 				2071422F20A45B9100B21AFC /* LaunchScreen.storyboard */,
 				2071423220A45B9100B21AFC /* Info.plist */,
+				2071423820A4995900B21AFC /* SwiftVideoBackground.xcodeproj */,
 			);
 			path = "Hawka App";
+			sourceTree = "<group>";
+		};
+		2071423920A4995900B21AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2071423E20A4995900B21AFC /* SwiftVideoBackground.app */,
+				2071424020A4995900B21AFC /* SwiftVideoBackgroundTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,12 +138,35 @@
 			mainGroup = 2071421A20A45B8E00B21AFC;
 			productRefGroup = 2071422420A45B8E00B21AFC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2071423920A4995900B21AFC /* Products */;
+					ProjectRef = 2071423820A4995900B21AFC /* SwiftVideoBackground.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2071422220A45B8E00B21AFC /* Hawka App */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2071423E20A4995900B21AFC /* SwiftVideoBackground.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftVideoBackground.app;
+			remoteRef = 2071423D20A4995900B21AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2071424020A4995900B21AFC /* SwiftVideoBackgroundTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftVideoBackgroundTests.xctest;
+			remoteRef = 2071423F20A4995900B21AFC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2071422120A45B8E00B21AFC /* Resources */ = {
